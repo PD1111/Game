@@ -128,6 +128,7 @@ public class Game extends Canvas implements Runnable {
 			render();
 			frames++;
 			
+			/*
 			if (System.currentTimeMillis() - timer > 1000) {
 				timer += 1000;
 				System.out.println(updates + " ups, " + frames + " fps");
@@ -135,6 +136,7 @@ public class Game extends Canvas implements Runnable {
 				updates = 0;
 				frames = 0;
 			}
+			*/
 		}
 		stop();
 	}
